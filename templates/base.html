@@ -1,0 +1,46 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Grade Management System{% endblock %}</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'custom.css' %}">
+</head>
+...
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'core:course_list' %}">Grade Portal</a>
+            <div class="navbar-nav ms-auto">
+                {% if user.is_authenticated %}
+                    <span class="nav-item nav-link text-light me-3">Welcome, {{ user.username }} ({{ user.role }})</span>
+                    <a class="nav-item nav-link btn btn-sm btn-outline-danger text-light px-3" href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                    <a class="nav-item nav-link btn btn-sm btn-outline-primary text-light me-2 px-3" href="{% url 'login' %}">Login</a>
+                    <a class="nav-item nav-link btn btn-sm btn-primary text-light px-3" href="{% url 'signup' %}">Sign Up</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{% if message.tags == 'error' %}danger{% else %}{{ message.tags }}{% endif %} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="nav" aria-label="Close"></button>
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
