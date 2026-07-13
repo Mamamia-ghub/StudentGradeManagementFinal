@@ -41,12 +41,16 @@ Database Models
 
 ---
 ###**Navigating through API, Grades, GPA**
-View Course API Data: 127.0.0.1:8000/api/courses/
-View Live Course Grades: 127.0.0.1:8000/api/courses/1/grades/
-View Student calculated GPA: 127.0.0.1:8000/api/students/1/gpa/ 
-View Student Attendances: 127.0.0.1:8000/api/attendance/1/
 
-(The 1 in this case works as the student's IP)
+- **View Course API Data:** 127.0.0.1:8000/api/courses/
+
+- **View Live Course Grades:** 127.0.0.1:8000/api/courses/1/grades/
+
+- **View Student calculated GPA:** 127.0.0.1:8000/api/students/1/gpa/ 
+
+- **View Student Attendances:** 127.0.0.1:8000/api/attendance/1/
+
+*(The 1 in this case works like the student's IP)*
 
 
 
