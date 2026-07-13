@@ -33,6 +33,14 @@ Database Models
 **Attendance:** Records student attendance as Present, Absent, or Late.
 
 ---
+###**Navigating trough the website**
+<img width="1300" height="1150" alt="Web1" src="https://github.com/user-attachments/assets/519edc47-4882-4ff9-af1f-e676a8111cc0" />
+<img width="1300" height="1150" alt="Web2" src="https://github.com/user-attachments/assets/99fc72f9-0b7b-42a4-b2c6-5df847da2395" />
+<img width="1300" height="1150" alt="Web3" src="https://github.com/user-attachments/assets/f40f206d-d4be-4819-af74-118178104d16" />
+<img width="1300" height="1150" alt="Web4" src="https://github.com/user-attachments/assets/8ae6288d-39de-4c89-9871-4362be632207" />
+
+
+
 
 
 
