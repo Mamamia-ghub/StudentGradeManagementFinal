@@ -39,6 +39,15 @@ Database Models
 <img width="1300" height="1150" alt="Web3" src="https://github.com/user-attachments/assets/f40f206d-d4be-4819-af74-118178104d16" />
 <img width="1300" height="1150" alt="Web4" src="https://github.com/user-attachments/assets/8ae6288d-39de-4c89-9871-4362be632207" />
 
+---
+###**Navigating through API, Grades, GPA**
+View Course API Data: 127.0.0.1:8000/api/courses/
+View Live Course Grades: 127.0.0.1:8000/api/courses/1/grades/
+View Student calculated GPA: 127.0.0.1:8000/api/students/1/gpa/ 
+View Student Attendances: 127.0.0.1:8000/api/attendance/1/
+
+(The 1 in this case works as the student's IP)
+
 
 
 
