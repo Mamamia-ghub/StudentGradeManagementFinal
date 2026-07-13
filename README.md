@@ -22,7 +22,7 @@ Key Features
 
 Database Models
 
-**User (AbstractUser):** Custom user model with three roles: **Admin**, **Teacher**, and **Student**, plus a `full_name` field.
+**User (AbstractUser):** Custom user model with three roles: **Admin**, **Teacher**, and **Student** field.
 
 **Course:** Stores course information, including schedule, meeting days, and assigned teacher.
 
