@@ -52,6 +52,39 @@ Database Models
 
 *(The 1 in this case works like the student's IP)*
 
+---
+## **Guide and explanation of structure**
+<img width="1300" height="1150" alt="1 1" src="https://github.com/user-attachments/assets/fe47a445-6c86-4649-80ca-f6696a23c656" />
+<img width="1300" height="1150" alt="1 2" src="https://github.com/user-attachments/assets/7230fb12-30cd-4e1c-af2e-7305e529650e" />
+<img width="1300" height="1150" alt="1 3" src="https://github.com/user-attachments/assets/575e28e6-7257-4459-98dd-c15d45f75883" />
+<img width="1300" height="1150" alt="1 4" src="https://github.com/user-attachments/assets/f1c43817-1eca-4d3a-af88-9b65b2b12df7" />
+
+---
+## **admin.py Code breakdown and explanation**
+<img width="1300" height="1150" alt="Admin py" src="https://github.com/user-attachments/assets/36cd8f06-e407-4c03-ab55-99e7b79d6dd7" />
+
+---
+## **forms.py Code breakdown and explanation**
+<img width="1300" height="1150" alt="Forms py" src="https://github.com/user-attachments/assets/b6bd0e74-a376-4817-a347-671a77dc94a1" />
+
+---
+## **models.py Code breakdown and explanation**
+<img width="1300" height="1150" alt="Models py" src="https://github.com/user-attachments/assets/ded7b06b-87be-44e1-b6b8-6b13d7a0616e" />
+
+---
+## **urls.py Code breakdown and explanation**
+<img width="1300" height="1150" alt="Urls py" src="https://github.com/user-attachments/assets/ef0a19b7-a8f3-4827-ba9f-9e321ac0f98b" />
+
+---
+## **views.py Code breakdown and explanation**
+<img width="1300" height="1150" alt="Views py" src="https://github.com/user-attachments/assets/279118cc-4509-4d30-9e30-ed0dd1dd3d84" />
+
+
+
+
+
+
+
 
 
 
